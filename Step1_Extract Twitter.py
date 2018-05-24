@@ -38,7 +38,7 @@ with open(path+'happy.csv', 'w', encoding="utf-8") as f:
     writer.writerows(happy_out_tweet)
 print('happy Data saved')
 
-#Get positive tweets with searching keyword 'sad' and extract most recent 2000 tweets
+#Get negative tweets with searching keyword 'sad' and extract most recent 2000 tweets
 sad_tweet=tweepy.Cursor(api.search,q='sad').items(2000)
 sad_out_tweet=[[tweet.id_str, tweet.text,
              tweet.user.id, 
