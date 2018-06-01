@@ -54,3 +54,11 @@ df_DR = df_DR[['sentiment']+col_name]
 df_DR.to_csv(path+'train_1000_DR.csv',index_label ='ID',header=True)
 print('DR train data saved to', path)
 
+#split dataset to training set and test dataset for some models of SAS. If you do not need to use these SAS model, ignore this par.
+df_DR_train = df_DR[:800]
+df_DR_train.to_csv(path+'BIA652_train_1000_DR_train.csv',index_label ='ID',header=True)
+print(df_DR_train.shape)
+
+df_DR_test = df_DR[800:]
+df_DR_test.to_csv(path+'BIA652_test_1000_DR_test.csv',index_label ='ID',header=True)
+print(df_DR_test.shape)
