@@ -26,4 +26,13 @@ one-hot coding
 
 
 ## Models and tranings
+Use 7 different models
+- Neural Network	
+- Support Vactor Machines
+- Bernoulli Naive Bayes	
+- Linear DiscrIminant
+- Logistic Regression
+- Perceptron Learning Algorithm	
+- K Neighbors Classifier
+Train the models and adjust Hyperparameter by validation curve
 ![Accuracy of different models](https://github.com/silentwhaleluo/Simple-sentimental-classification-on-Twitter/blob/master/Accuracy%20of%20different%20models.png?raw=true)
