@@ -21,18 +21,20 @@ filter the text (Replace uppercase letters with lowercase letters, remove punctu
 
 Replace the words with numbers
 > [60, 1, 9, 282, 39, 3034, 3035, 3036, 3037, 3038]  
+
 one-hot coding
 > [ 0.  1.  0. ...,  0.  0.  0.] (1*4583)
 
 
 ## Models and tranings
-Use 7 different models
+### Use 7 different models
 - Neural Network	
 - Support Vactor Machines
 - Bernoulli Naive Bayes	
 - Linear DiscrIminant
 - Logistic Regression
 - Perceptron Learning Algorithm	
-- K Neighbors Classifier
-Train the models and adjust Hyperparameter by validation curve
+- K Neighbors Classifier  
+### Train the models and adjust Hyperparameter by validation curve
+
 ![Accuracy of different models](https://github.com/silentwhaleluo/Simple-sentimental-classification-on-Twitter/blob/master/Accuracy%20of%20different%20models.png?raw=true)
